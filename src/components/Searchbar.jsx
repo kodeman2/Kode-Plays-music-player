@@ -17,7 +17,7 @@ const handleSubmit = (e) => {
 <label htmlFor="search-field" className="sr-only">
   Search all songs
 </label>
-<div className="flex flex-row justify-start items-center">
+<div className="mt-7 flex flex-row justify-start items-center">
 <FiSearch className="w-5 h-5 ml-4"/>
 <input name="search-field"
 autoComplete="off"
