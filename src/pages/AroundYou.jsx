@@ -14,7 +14,7 @@ const AroundYou = () => {
   
 
   useEffect(() => {
-    axios.get(`https://geo.ipify.org/api/v2/country?apiKey=at_0Ahsb0qZt7po2wfjC2CGP56feawaP&ipAddress=8.8.8.8`)
+    axios.get(`https://geo.ipify.org/api/v2/country?apiKey=at_0Ahsb0qZt7po2wfjC2CGP56feawaP`)
       .then((res) => setCountry(res?.data?.location?.country))
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
