@@ -63,13 +63,7 @@ const Discover = () => {
         </h2>
 
         <div className="flex gap-4 sm:mt-0 mt-5">
-          <select
-            onChange={(e) => dispatch(selectCountry(e.target.value))}
-            value={country}
-            className="bg-black text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt-0 mt-5 glass-morphism"
-          >
-            {countries.map((c) => <option key={c.value} value={c.value}>{c.title}</option>)}
-          </select>
+
 
           <select
             onChange={(e) => dispatch(selectGenreListId(e.target.value))}
