@@ -5,6 +5,18 @@ module.exports = {
     extend: {
       colors: {
         black: '#191624',
+        // Glassmorphism palette
+        glass: {
+          100: 'rgba(255, 255, 255, 0.1)',
+          200: 'rgba(255, 255, 255, 0.2)',
+          300: 'rgba(255, 255, 255, 0.3)',
+          dark: 'rgba(0, 0, 0, 0.3)',
+        },
+        primary: '#2a2a72',
+        secondary: '#009ffd',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
       },
       animation: {
         slideup: 'slideup 1s ease-in-out',
@@ -13,6 +25,7 @@ module.exports = {
         slideright: 'slideright 1s ease-in-out',
         wave: 'wave 1.2s linear infinite',
         slowfade: 'slowfade 2.2s ease-in-out',
+        'spin-slow': 'spin 3s linear infinite',
       },
       keyframes: {
         slowfade: {
@@ -43,4 +56,5 @@ module.exports = {
       },
     },
   },
+  plugins: [],
 };
